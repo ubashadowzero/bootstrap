@@ -1,0 +1,35 @@
+/* HTML */
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+/* Main */
+/* Footer */
+footer {
+	-webkit-box-ordinal-group: 6;
+	padding: 0 1rem;
+	-webkit-box-align: stretch;
+}
+
+footer div nav ul {
+	-webkit-box-pack: center;
+}
+
+footer div nav ul li{
+	padding: 0;
+	margin-bottom: 7px;
+	margin-right: 16px;
+	vertical-align: baseline;
+	text-align: center;
+}
+
+footer div span{
+	text-align: center;
+}
+
+@media (min-width: 0px) and (max-width: 360px){
+	footer div span{
+		text-align: center;
+	}
+}
